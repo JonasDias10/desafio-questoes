@@ -10,7 +10,10 @@ int main() {
     printf("Entre com a string a ser invertida: ");
     scanf(" %[^\n]", string);
 
-    inverte_string(string);
+    if(inverte_string(string))
+        printf("\nString invertida com sucesso.\n");
+    else
+        printf("\nString de tamanho menor ou igual a 1.\n");
 
     printf("\nString invertida: %s\n", string);
 
