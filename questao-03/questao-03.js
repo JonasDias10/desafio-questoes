@@ -9,7 +9,7 @@ function menorFaturamentoMes(faturamento){
     return(menor);
 }
 const menorFaturamento = menorFaturamentoMes(faturamento);
-console.log(`O dia útil do mês com menor faturamento foi o ${menorFaturamento.dia} no valor de ${menorFaturamento.valor}`);
+console.log(`O dia útil do mês com menor faturamento foi o ${menorFaturamento.dia} no valor de ${menorFaturamento.valor}\n`);
 
 function maiorFaturamentoMes(faturamento){
     let maior = faturamento[0];
@@ -20,7 +20,7 @@ function maiorFaturamentoMes(faturamento){
     return(maior);
 }
 const maiorFaturamento = maiorFaturamentoMes(faturamento);
-console.log(`O dia útil do mês com maior faturamento foi o ${maiorFaturamento.dia} no valor de ${maiorFaturamento.valor}`);
+console.log(`O dia útil do mês com maior faturamento foi o ${maiorFaturamento.dia} no valor de ${maiorFaturamento.valor}\n`);
 
 function calcularMediaMensal(faturamento) {
     let media = 0, diasUteis = 0;
@@ -45,4 +45,4 @@ function diasAcimaDaMedia(media, faturamento){
     return(dias);
 }
 const dias = diasAcimaDaMedia(media, faturamento);
-console.log(`Número de dias úteis com faturamento acima da média mensal foi de ${dias}`);
+console.log(`Número de dias úteis com faturamento acima da média mensal foi de ${dias}\n`);
