@@ -7,7 +7,7 @@ int main() {
     long int numero;
 
     printf("Informe o numero para verificarmos se ele pertence a sequencia de fibonacci: ");
-    scanf("%d", &numero);
+    scanf("%ld", &numero);
 
     if(numero_pertence_fibonacci(numero))
         printf("\nNumero %ld pertence a sequencia de fibonacci.\n", numero);
